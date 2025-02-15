@@ -123,5 +123,10 @@ namespace common_control_tools
         {
             toolTip1.SetToolTip(button1, "Kattints a gombra!");
         }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            treeView1.Nodes.Add("Gyökér");
+        }
     }
 }
