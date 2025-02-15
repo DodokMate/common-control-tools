@@ -75,5 +75,10 @@ namespace common_control_tools
         {
             listView1.Items.Add(new ListViewItem("Elem1"));
         }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            numericUpDown1.Value = 10;
+        }
     }
 }
