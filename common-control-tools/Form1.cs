@@ -80,5 +80,10 @@ namespace common_control_tools
         {
             numericUpDown1.Value = 10;
         }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            MessageBox.Show(monthCalendar1.SelectionStart.ToShortDateString());
+        }
     }
 }
