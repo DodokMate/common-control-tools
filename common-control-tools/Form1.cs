@@ -128,5 +128,10 @@ namespace common_control_tools
         {
             treeView1.Nodes.Add("Gyökér");
         }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            webBrowser1.Navigate("https://www.google.com");
+        }
     }
 }
