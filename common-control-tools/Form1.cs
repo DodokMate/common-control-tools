@@ -70,5 +70,10 @@ namespace common_control_tools
             listBox1.Items.Add("Elem1");
             MessageBox.Show(listBox1.SelectedItem.ToString());
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listView1.Items.Add(new ListViewItem("Elem1"));
+        }
     }
 }
