@@ -73,6 +73,7 @@
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkedListBox1
             // 
@@ -154,7 +155,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(769, 225);
+            this.numericUpDown1.Location = new System.Drawing.Point(787, 225);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 26);
             this.numericUpDown1.TabIndex = 11;
@@ -169,7 +170,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(769, 509);
+            this.progressBar1.Location = new System.Drawing.Point(787, 509);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(182, 23);
             this.progressBar1.TabIndex = 13;
@@ -177,7 +178,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(768, 466);
+            this.radioButton1.Location = new System.Drawing.Point(825, 452);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(126, 24);
             this.radioButton1.TabIndex = 14;
@@ -202,14 +203,14 @@
             // 
             // treeView1
             // 
-            this.treeView1.Location = new System.Drawing.Point(769, 63);
+            this.treeView1.Location = new System.Drawing.Point(802, 63);
             this.treeView1.Name = "treeView1";
             this.treeView1.Size = new System.Drawing.Size(121, 97);
             this.treeView1.TabIndex = 17;
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(769, 288);
+            this.webBrowser1.Location = new System.Drawing.Point(787, 279);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(174, 154);

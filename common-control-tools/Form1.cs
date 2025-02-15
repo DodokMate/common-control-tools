@@ -21,5 +21,13 @@ namespace common_control_tools
         {
             MessageBox.Show("Gomb megnyomva!");
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                MessageBox.Show("Be van jelölve!");
+            }
+        }
     }
 }

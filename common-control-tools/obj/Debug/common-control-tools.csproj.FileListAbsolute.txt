@@ -1,0 +1,10 @@
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\bin\Debug\common-control-tools.exe.config
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\bin\Debug\common-control-tools.exe
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\bin\Debug\common-control-tools.pdb
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\obj\Debug\common-control-tools.csproj.AssemblyReference.cache
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\obj\Debug\common_control_tools.Form1.resources
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\obj\Debug\common_control_tools.Properties.Resources.resources
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\obj\Debug\common-control-tools.csproj.GenerateResource.cache
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\obj\Debug\common-control-tools.csproj.CoreCompileInputs.cache
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\obj\Debug\common-control-tools.exe
+C:\Users\dodok\source\repos\common-control-tools\common-control-tools\obj\Debug\common-control-tools.pdb
