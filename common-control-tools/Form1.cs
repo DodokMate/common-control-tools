@@ -108,5 +108,10 @@ namespace common_control_tools
                 MessageBox.Show("Kiválasztva!");
             }
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            richTextBox1.AppendText("Új szöveg");
+        }
     }
 }
