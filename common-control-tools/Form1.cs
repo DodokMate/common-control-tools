@@ -95,5 +95,10 @@ namespace common_control_tools
         {
             pictureBox1.Image = Image.FromFile("kép.png");
         }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+            progressBar1.Value = 50;
+        }
     }
 }
