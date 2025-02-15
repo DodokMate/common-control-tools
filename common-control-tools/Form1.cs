@@ -90,5 +90,10 @@ namespace common_control_tools
         {
             notifyIcon1.ShowBalloonTip(1000, "Értesítés", "Üzenet", ToolTipIcon.Info);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile("kép.png");
+        }
     }
 }
