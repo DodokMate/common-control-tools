@@ -37,5 +37,22 @@ namespace common_control_tools
                 MessageBox.Show(item.ToString());
             }
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("Elem1");
+            comboBox1.Items.Add("Elem2");
+            MessageBox.Show(comboBox1.SelectedItem.ToString());
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show(dateTimePicker1.Value.ToString());
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Új szöveg";
+        }
     }
 }
