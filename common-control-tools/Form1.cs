@@ -64,5 +64,11 @@ namespace common_control_tools
         {
             System.Diagnostics.Process.Start("https://www.google.com");
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("Elem1");
+            MessageBox.Show(listBox1.SelectedItem.ToString());
+        }
     }
 }
