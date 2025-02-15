@@ -113,5 +113,10 @@ namespace common_control_tools
         {
             richTextBox1.AppendText("Új szöveg");
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            string input = textBox1.Text;
+        }
     }
 }
