@@ -78,6 +78,9 @@
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "item1",
+            "item2"});
             this.checkedListBox1.Location = new System.Drawing.Point(12, 93);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(199, 119);
@@ -87,6 +90,8 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Válasszon!"});
             this.comboBox1.Location = new System.Drawing.Point(12, 218);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(199, 28);
@@ -142,9 +147,11 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(217, 186);
+            this.maskedTextBox1.Mask = "(999) 000-0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(200, 26);
             this.maskedTextBox1.TabIndex = 9;
+            this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // monthCalendar1
             // 

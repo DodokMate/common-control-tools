@@ -54,5 +54,10 @@ namespace common_control_tools
         {
             label1.Text = "Új szöveg";
         }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            maskedTextBox1.Mask = "(999) 000-0000";
+        }
     }
 }
