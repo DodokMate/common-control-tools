@@ -118,5 +118,10 @@ namespace common_control_tools
         {
             string input = textBox1.Text;
         }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+            toolTip1.SetToolTip(button1, "Kattints a gombra!");
+        }
     }
 }
