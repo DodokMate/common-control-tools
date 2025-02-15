@@ -100,5 +100,13 @@ namespace common_control_tools
         {
             progressBar1.Value = 50;
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Kiválasztva!");
+            }
+        }
     }
 }
