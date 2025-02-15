@@ -85,5 +85,10 @@ namespace common_control_tools
         {
             MessageBox.Show(monthCalendar1.SelectionStart.ToShortDateString());
         }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            notifyIcon1.ShowBalloonTip(1000, "Értesítés", "Üzenet", ToolTipIcon.Info);
+        }
     }
 }
