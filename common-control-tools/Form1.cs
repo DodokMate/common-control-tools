@@ -29,5 +29,13 @@ namespace common_control_tools
                 MessageBox.Show("Be van jelölve!");
             }
         }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            foreach (var item in checkedListBox1.CheckedItems)
+            {
+                MessageBox.Show(item.ToString());
+            }
+        }
     }
 }
