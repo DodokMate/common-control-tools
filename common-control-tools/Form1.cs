@@ -59,5 +59,10 @@ namespace common_control_tools
         {
             maskedTextBox1.Mask = "(999) 000-0000";
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.google.com");
+        }
     }
 }
